@@ -60,28 +60,87 @@
 
 //switch case
 
-let today="friday"
-switch (today){
-    case "Monday":
-        console.log("today is monday")
-        break;
-    case "Tuesday":
-        console.log("today is tuesday")
-        break;
-    case  "Wenesday":
-        console.log("today is wenesday")
-        break;
-    case "Thursday":
-        console.log("today is thursday")
-        break;
-    case "friday":
-        console.log("today is friday")
-        break;
-    case "saturday":
-        console.log("today is saturday")
-        break;
-    default:
-        console.log("today is sunday")
+// let today="friday"
+// switch (today){
+//     case "Monday":
+//         console.log("today is monday")
+//         break;
+//     case "Tuesday":
+//         console.log("today is tuesday")
+//         break;
+//     case  "Wenesday":
+//         console.log("today is wenesday")
+//         break;
+//     case "Thursday":
+//         console.log("today is thursday")
+//         break;
+//     case "friday":
+//         console.log("today is friday")
+//         break;
+//     case "saturday":
+//         console.log("today is saturday")
+//         break;
+//     default:
+//         console.log("today is sunday")
 
-}
+// }
     
+
+//for loop
+
+// for(let i=1;i<=100;i++){
+//     console.log(i)
+// }
+
+// for(let i=1;i<=100;i++){
+//     console.log(i*2)
+// }
+
+// for(let i=1;i<=10;i++){
+//     console.log(i+2)
+// }
+
+//while loop
+
+// let i=5;
+
+// while(i<=10){
+//     console.log("printing",i)
+//     i++;
+// }
+
+//do while loop
+
+// let i=0;
+
+// do{
+//     console.log(i)
+//     i++;
+// }while(i<=10);
+
+// let array =["apple","orange","banana","apple","orange","banana"]
+
+// console.log(array.length);
+// for( i=0; i<array.length;i++){
+//     console.log(array[i])
+// }
+
+
+// for of loop
+
+// for(i of array){
+//     console.log(i);
+// }
+
+let person ={
+    name: "abhi",
+    age: 22,
+    place: "kollam",
+    phn: 8589913698,
+};
+
+//for in loop
+
+for (value in person){
+    console.log(person[value]);
+}
