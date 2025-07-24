@@ -132,15 +132,30 @@
 //     console.log(i);
 // }
 
-let person ={
-    name: "abhi",
-    age: 22,
-    place: "kollam",
-    phn: 8589913698,
-};
+// let person ={
+//     name: "abhi",
+//     age: 22,
+//     place: "kollam",
+//     phn: 8589913698,
+// };
 
 //for in loop
 
-for (value in person){
-    console.log(person[value]);
+// for (value in person){
+//     console.log(person[value]);
+// }
+
+
+
+// sample qstn in for loop
+
+const numbers = [12,45,22,34,78,11,9,56];
+
+const new_array =[];
+
+for (let i=0; i < numbers.length; i++){
+    if (numbers[i]>30) {
+        new_array.push(numbers[i]*2);
+    }
 }
+console.log(new_array)
